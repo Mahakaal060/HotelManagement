@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../assests/back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  top: 0;
+}
+.logo {
+  font-family: sans-serif;
+  font-size: 2.5em;
+}
+.logo span {
+  color: blueviolet;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.menu a:first-child {
+  color: black;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: blueviolet;
+  border-radius: 2px;
+}
+.icon i {
+  font-size: 20px;
+}
+.icon i:hover {
+  color: red;
+}
+.icon a {
+  text-decoration: none;
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.h-text {
+  color: white;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 46px;
+}
+#about {
+  padding: 100px 0px;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: wrap;
+}
+.leftcol {
+  flex-basis: 50%;
+}
+.leftcol img {
+  width: 80%;
+  padding-left: 5%;
+}
+.rightcol {
+  flex-basis: 50%;
+  text-align: right;
+  margin-right: 100px;
+}
+.rightcol p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px 0px;
+}
+.rightcol h2 {
+  color: blue;
+}
+
+.line1 {
+  width: 12px;
+  height: 12px;
+  background: #6c63ff;
+}
+#about {
+  padding: 100px 0px;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: wrap;
+}
+.leftcol2 {
+  flex-basis: 50%;
+  text-align: left;
+  margin-right: 100px;
+}
+.leftcol2 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px 0px;
+}
+.leftcol2 h2 {
+  color: blue;
+}
+.rightcol2 {
+  flex-basis: 50%;
+}
+.rightcol2 img {
+  width: 80%;
+  padding-left: 5%;
+}
+
+.line1 {
+  width: 12px;
+  height: 12px;
+  background: #6c63ff;
+}
+#rooms {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.foorpara {
+  align-self: center;
+}
+#features {
+  padding: 100px 0px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.features-box {
+  flex-basis: 25%;
+  text-align: center;
+}
+.features-box img {
+  width: 100%;
+  height: 350px;
+}
+.features-box ul li {
+  text-align: left;
+}
+.features-box {
+  text-align: justify;
+}
