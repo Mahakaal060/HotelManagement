@@ -1,7 +1,7 @@
 // Variables
-const loginBtn = document.getElementById("loginBtn");
 const loginForm = document.querySelector("form");
 const homeBtn = document.getElementById("homeBtn");
+const signupBtn = document.getElementById("signupBtn");
 
 // Functions
 const handleLogin = () => {
@@ -12,6 +12,10 @@ const goHome = () => {
   location.href = "/";
 };
 
+const goSignUp = () => {
+  location.href = "/signup.html";
+};
+
 // Events
 loginForm.addEventListener("click", function (event) {
   event.preventDefault();
@@ -19,3 +23,5 @@ loginForm.addEventListener("click", function (event) {
 });
 
 homeBtn.addEventListener("click", goHome);
+
+signupBtn.addEventListener("click", goSignUp);

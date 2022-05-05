@@ -11,13 +11,22 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/public/styles/login.css" />
-    <title>Login</title>
+    <title>Sign Up</title>
   </head>
   <body>
-    <h1 class="text-center mt-4">Login</h1>
+    <h1 class="text-center mt-4">Sign up</h1>
     <button class="mx-5 btn btn-primary" id="homeBtn">Home</button>
     <form class="m-5" id="form">
+      <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Name address</label>
+        <input
+          type="name"
+          class="form-control"
+          id="exampleInputName"
+          aria-describedby="nameHelp"
+        />
+        <div id="nameHelp" class="form-text">Enter your cool name</div>
+      </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input
@@ -41,10 +50,10 @@
       <div class="form-text mb-3">Keep it Hushhh!</div>
       <button type="submit" class="btn btn-primary">Submit</button>
       <div class="d-flex align-items-center">
-        <div class="fs-4">New here?</div>
-        <button class="btn btn-secondary m-2" id="signupBtn">Sign up</button>
+        <div class="fs-4">Already been here?</div>
+        <button class="btn btn-secondary m-2" id="signinBtn">Sign in</button>
       </div>
     </form>
   </body>
-  <script src="src/handleLogin.js"></script>
+  <script src="./src/handleSignup.js"></script>
 </html>
